@@ -1,4 +1,4 @@
-package ec.edu.ups.projectmicroservicereview.entity;
+package ec.edu.ups.projectgames.entitty;
 
 public enum Category {
 

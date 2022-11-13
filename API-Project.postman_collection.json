@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "a544978b-e90f-41cf-af55-361d283084de",
+		"_postman_id": "a859a5ea-030c-46fa-aa8e-cf7fead99d74",
 		"name": "API-Project",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12980422"
 	},
 	"item": [
 		{
@@ -123,6 +124,46 @@
 						"test"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveGame",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "scoreCategory",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getGAmes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getScorePlatform",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getScore",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}

@@ -7,18 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="project-microservice-games" />
+        <module name="project-microservice-gateway" />
+        <module name="project-microservice-security" />
+        <module name="project-microservice-eureka" />
         <module name="project-microservice-review" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="project-microservice-eureka" target="17" />
       <module name="project-microservice-games" target="17" />
+      <module name="project-microservice-gateway" target="17" />
       <module name="project-microservice-review" target="11" />
+      <module name="project-microservice-security" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project-microservice-eureka" options="-parameters" />
       <module name="project-microservice-games" options="-parameters" />
+      <module name="project-microservice-gateway" options="-parameters" />
       <module name="project-microservice-review" options="-parameters" />
+      <module name="project-microservice-security" options="-parameters" />
     </option>
   </component>
 </project>

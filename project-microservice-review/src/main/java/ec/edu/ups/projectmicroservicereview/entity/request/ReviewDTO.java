@@ -1,38 +1,34 @@
-package ec.edu.ups.projectmicroservicereview.entity;
-import javax.persistence.*;
+package ec.edu.ups.projectmicroservicereview.entity.request;
 
-@Entity
-public class Review {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class ReviewDTO {
+
     private String acceptance;
     private double scoreCategory;
     private double scorePlatform;
 
-    public Review(Long id, String acceptance, double scoreCategory, double scorePlatform) {
-        this.id = id;
+    public ReviewDTO(Long id, String acceptance, double scoreCategory, double scorePlatform) {
+
         this.acceptance = acceptance;
         this.scoreCategory = scoreCategory;
         this.scorePlatform = scorePlatform;
     }
 
-    public Review() {
+    public ReviewDTO() {
     }
 
-    public Review(String acceptance, int scoreCategory, int scorePlatform) {
+    public ReviewDTO(String acceptance, int scoreCategory, int scorePlatform) {
         this.acceptance = acceptance;
         this.scoreCategory = scoreCategory;
         this.scorePlatform = scorePlatform;
     }
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+
 
     public String getAcceptance() {
         return acceptance;

@@ -1,8 +1,5 @@
 package ec.edu.ups.projectmicroservicereview.entity.request;
 
-import ec.edu.ups.projectmicroservicereview.entity.Review;
-
-import javax.persistence.*;
 import java.util.List;
 
 
